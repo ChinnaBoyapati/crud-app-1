@@ -8,7 +8,8 @@ import { URL, apiList, invokeGetApi } from './apiservises/Api';
 const CourseView = () => {
     const { id } = useParams();
     const [courseData, setCourseData] = useState(null);
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+    const [chefData, setChefData] = useState()
 
     // useEffect(() => {
     //     const fetchCourseData = async () => {
